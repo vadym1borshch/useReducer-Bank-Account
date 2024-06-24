@@ -1,11 +1,12 @@
-import React from 'react';
+import React from 'react'
+import { BankAccount } from './components/Bank/Bank'
 
 function App() {
   return (
     <div>
-     bank acc
+      <BankAccount />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
